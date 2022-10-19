@@ -8,3 +8,58 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* Iteração 1 768px */
+
+* {
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  min-height: 0%;
+  margin-right: 0%;
+  height: 400px;
+  display: flex;
+  background-color: #540b51;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.pesquisa-menu > button {
+  margin-right: 20px;
+  background: #540b51;
+}
+
+.cabeçalho {
+  margin-left: 40px;
+  background: #540b51;
+}
+
+.menu-itens {
+  display: none;
+}
+
+.menu-itens > il {
+  width: 100px;
+  height: 50px;
+}
+
+.header {
+  height: 600px;
+  display: flex;
+  background-color: #540b51;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Iteração 2 */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+/* Iteração 3 */
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+}
+/* Iteração 4 */
+@media all and (min-width: 1441px) {
+}
